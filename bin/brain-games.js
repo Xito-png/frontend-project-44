@@ -9,8 +9,3 @@ const greetUser = () => {
 };
 
 export default greetUser;
-
-import greetUser from '../src/cli.js';
-
-greetUser();
-
