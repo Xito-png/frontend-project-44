@@ -12,7 +12,7 @@ export default [
       'stylistic/indent': ['error', 2],
       'stylistic/no-trailing-spaces': 'error',
       'stylistic/eol-last': 'error',
-      'stylistic/comma-dangle': ['error', 'always-multiline']
-    }
-  }
+      'stylistic/comma-dangle': ['error', 'always-multiline'],
+    },
+  },
 ];
