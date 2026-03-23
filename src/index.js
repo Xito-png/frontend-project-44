@@ -20,4 +20,3 @@ export const runGame = (game, name) => {
 
   console.log(`Congratulations, ${name}!`)
 }
-
