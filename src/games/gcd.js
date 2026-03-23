@@ -1,22 +1,22 @@
 const getGCD = (a, b) => {
   while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+    const temp = b
+    b = a % b
+    a = temp
   }
-  return a;
-};
+  return a
+}
 
 const getQuestionAndAnswer = () => {
-  const num1 = Math.floor(Math.random() * 100) + 1;
-  const num2 = Math.floor(Math.random() * 100) + 1;
+  const num1 = Math.floor(Math.random() * 100) + 1
+  const num2 = Math.floor(Math.random() * 100) + 1
 
-  const question = `${num1} ${num2}`;
-  const answer = String(getGCD(num1, num2));
+  const question = `${num1} ${num2}`
+  const answer = String(getGCD(num1, num2))
 
-  return { question, answer };
-};
+  return { question, answer }
+}
 
-const description = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.'
 
-export default { getQuestionAndAnswer, description };
+export default { getQuestionAndAnswer, description }
