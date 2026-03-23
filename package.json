@@ -16,10 +16,10 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-calc": "scr/games/calc.js",
-    "brain-gcd": "scr/games/gcd.js",
-    "brain-progression": "scr/games/progression.js",
-    "brain-prime": "scr/games/prime.js"
+    "brain-calc": "scr/calc.js",
+    "brain-gcd": "scr/gcd.js",
+    "brain-progression": "scr/progression.js",
+    "brain-prime": "scr/prime.js"
   },
   "bugs": {
     "url": "https://github.com/Xito-png/frontend-project-44/issues"
