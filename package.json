@@ -2,6 +2,10 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "description": "[![Actions Status](https://github.com/Xito-png/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Xito-png/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
@@ -13,14 +17,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "scr/calc.js",
-    "brain-gcd": "scr/gcd.js",
-    "brain-progression": "scr/progression.js",
-    "brain-prime": "scr/prime.js"
-  },
+  
   "bugs": {
     "url": "https://github.com/Xito-png/frontend-project-44/issues"
   },
