@@ -1,4 +1,5 @@
 import stylistic from '@stylistic/eslint-plugin';
+import stylisticTs from '@stylistic/eslint-plugin-ts';
 
 export default [
   {
@@ -13,6 +14,14 @@ export default [
       'stylistic/no-trailing-spaces': 'error',
       'stylistic/eol-last': 'error',
       'stylistic/comma-dangle': ['error', 'always-multiline'],
+    },
+  },
+  {
+    files: ['**/*.ts'],
+    plugins: {
+      'stylistic/ts': stylisticTs,
+    },
+    rules: {
     },
   },
 ];
